@@ -10,6 +10,7 @@ int main() {
 	while (tt--) {
 		long long n, a, b;
 		cin >> n >> a >> b;
+		// view the image in this repository for better understanding
 		// convert 'a' and 'b' into their binary representation using bitsets
 		string a_binary = bitset<30>(a).to_string();
 		string b_binary = bitset<30>(b).to_string();
