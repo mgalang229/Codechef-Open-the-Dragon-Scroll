@@ -18,11 +18,11 @@ int main() {
 		int b1 = 0;
 		for (int i = 30 - n; i < 30; i++) {
 			if (a_binary[i] == '1') {
-				// count the number of '1' bits in 'a_binary'
+				// count the number of '1' bits in 'a'
 				a1++;
 			}
 			if (b_binary[i] == '1') {
-				// count the number of '1' bits in 'b_binary'
+				// count the number of '1' bits in 'b'
 				b1++;
 			}
 		}
