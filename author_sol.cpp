@@ -37,9 +37,9 @@ int main() {
 			}
 			return res;
 		};
-		// calculate the '0' bits in 'a_binary'
+		// calculate the '0' bits in 'a'
 		int a0 = n - a1;
-		// calculate the '0' bits in 'b_binary'
+		// calculate the '0' bits in 'b'
 		int b0 = n - b1;
 		// calculate the maximum number of '1' bits that can be
 		// place in the MSB (Most Significant Bit) side of a binary
