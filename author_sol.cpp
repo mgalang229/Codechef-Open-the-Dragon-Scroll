@@ -42,7 +42,7 @@ int main() {
 		// calculate the '0' bits in 'b'
 		int b0 = n - b1;
 		// calculate the maximum number of '1' bits that can be
-		// place in the MSB (Most Significant Bit) side of a binary
+		// placed in the MSB (Most Significant Bit) side of a binary
 		// min(a1, b0) = pair the '1' bits of 'a' to the '0' bits of 'b'
 		// min(a0, b1) = pair the '1' bits of 'b' to the '0' bits of 'a'
 		// add these two values together to produce the maximum number of 
